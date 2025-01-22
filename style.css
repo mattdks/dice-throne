@@ -1,0 +1,52 @@
+* {
+    text-align: center;
+    font-family: "Crete Round", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+#screen > section {
+    border-style: solid;
+    border-width: 0px 1px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 10px 10px;
+    grid-template-rows: 10px 10px;
+    gap: 50px
+}
+
+#hp-bar, #cp-bar {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+#hp-bar {
+    border-color: red;
+    color: red;
+}
+
+#held-status {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    border-color: blanchedalmond;
+}
+
+#cp-bar {
+    border-color: blue;
+    color: blue;
+}

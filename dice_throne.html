@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Throne - PLACEHOLDER</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Crete+Round:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/abcc70ceac.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <p>For reset/other buttons</p>
+    </header>
+    <section class="wrap" id="screen">
+        <section id="dice-section">
+            <i class="fa-solid fa-dice-six"></i>
+            <h3 id="d1">0</h3>
+            <h3 id="d2">0</h3>
+            <h3 id="d3">0</h3>
+            <h3 id="d4">0</h3>
+            <h3 id="d5">0</h3>
+            <p>reset, dice</p>
+        </section>
+        <section id="board-section">
+            <section class="wrap"> <!--hp, status, cp horizontally aligned across-->
+                <section id="hp-bar">
+                    <h2>HP</h2>
+                    <div class="dial">
+                        <button id="ten-up"><i class="fa-solid fa-caret-up"></i></button>
+                        <div id="tens">5</div>
+                        <button id="ten-down"><i class="fa-solid fa-caret-down"></i></button>
+                    </div>
+                    <div class="dial">
+                        <button id="one-up"><i class="fa-solid fa-caret-up"></i></button>
+                        <div id="ones">0</div>
+                        <button id="one-down"><i class="fa-solid fa-caret-down"></i></button>
+                    </div>
+                </section>
+                <section id="held-status">
+                    <p>initially blank, indicates current effects held</p>
+                </section>
+                <section id="cp-bar">
+                    <h2>CP</h2>
+                    <div class="dial">
+                        <button id="cp-up"><i class="fa-solid fa-caret-up"></i></button>
+                        <div id="cp">2</div>
+                        <button id="cp-down"><i class="fa-solid fa-caret-down"></i></button>
+                    </div>
+                </section>
+            </section>
+            <section class="wrap"> <!--4 squares on one side, 4 other, ulti middle-->
+                <section class="grid">
+                    <div class="move-square">
+                        <p>1</p>
+                    </div>
+                    <div class="move-square">
+                        <p>2</p>
+                    </div>
+                    <div class="move-square">
+                        <p>3</p>
+                    </div>
+                    <div class="move-square">
+                        <p>4</p>
+                    </div>
+                </section>
+                <section id="center">
+                    <h2 id="char-name">Vampire Lord</h2>
+                    <p>ultimate</p>
+                </section>
+                <section class="grid">
+                    <div class="move-square">
+                        <p>5</p>
+                    </div>
+                    <div class="move-square">
+                        <p>6</p>
+                    </div>
+                    <div class="move-square">
+                        <p>7</p>
+                    </div>
+                    <div class="move-square">
+                        <p>8</p>
+                    </div>
+                </section>
+            </section>
+        </section>
+        <section id="cards-section">
+            <p>draw-pile, discard-pile, hand</p>
+        </section>
+    </section>
+</body>
+</html>
