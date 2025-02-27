@@ -21,10 +21,6 @@ button {
     background-color:darkgrey;
 }
 
-.die {
-    background-color: blue;
-}
-
 .locked {
     background-color: lightgreen;
     color: darkred;
