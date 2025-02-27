@@ -21,6 +21,15 @@ button {
     background-color:darkgrey;
 }
 
+.die {
+    background-color: blue;
+}
+
+.locked {
+    background-color: lightgreen;
+    color: darkred;
+}
+
 #screen > section {
     border-style: solid;
     border-width: 0px 1px;
@@ -56,10 +65,4 @@ button {
 #cp-bar {
     border-color: blue;
     color: blue;
-}
-
-/* Dice */
-.locked {
-    background-color: lightgreen;
-    color: darkred;
 }
