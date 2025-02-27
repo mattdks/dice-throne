@@ -1,15 +1,6 @@
 const tensDisplay = document.getElementById("tens");
 const onesDisplay = document.getElementById("ones");
 const cpDisplay = document.getElementById("cp");
-const dice = document.querySelectorAll("#dice-section p");
-
-dice.forEach((d) => {
-    d.addEventListener("click", () => rollDie(d));
-});
-
-function rollDie(die) {
-    die.textContent = Math.floor(Math.random() * 5) + 1
-}
 
 function changeDigit(displayElement, value) {
     let curr = parseInt(displayElement.textContent);

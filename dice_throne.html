@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dice Throne - PLACEHOLDER</title>
+    <title>Dice Throne</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Crete+Round:ital@0;1&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/abcc70ceac.js" crossorigin="anonymous"></script>
     <script src="script.js" defer></script>
+    <script src="dice_script.js" defer></script>
 </head>
 <body>
     <header>
@@ -18,12 +19,13 @@
     <section class="wrap" id="screen">
         <section id="dice-section">
             <i class="fa-solid fa-dice-six"></i>
-            <h3 id="d1">0</h3>
-            <h3 id="d2">0</h3>
-            <h3 id="d3">0</h3>
-            <h3 id="d4">0</h3>
-            <h3 id="d5">0</h3>
-            <p>reset, dice</p>
+            <h3 id="d1">-</h3>
+            <h3 id="d2">-</h3>
+            <h3 id="d3">-</h3>
+            <h3 id="d4">-</h3>
+            <h3 id="d5">-</h3>
+            <button id="roll-dice">Roll Dice</button>
+            <button id="reset-dice">Reset</button>
         </section>
         <section id="board-section">
             <section class="wrap"> <!--hp, status, cp horizontally aligned across-->
