@@ -1,0 +1,128 @@
+[
+    {
+      "id": 1,
+      "phase": "instant",
+      "cp": 0,
+      "name": "GETTING PAID!",
+      "description": "Gain 2 cp."
+    },
+    {
+      "id": 2,
+      "phase": "instant",
+      "cp": 1,
+      "name": "DOUBLE UP!",
+      "description": "Draw 2 cards."
+    },
+    {
+      "id": 3,
+      "phase": "instant",
+      "cp": 1,
+      "name": "TIP IT!",
+      "description": "Increase or decrease any die by the value of 1."
+    },
+    {
+      "id": 4,
+      "phase": "instant",
+      "cp": 2,
+      "name": "BUH, BYE!",
+      "description": "Remove a status effect token from a chosen player."
+    },
+    {
+      "id": 5,
+      "phase": "instant",
+      "cp": 2,
+      "name": "TRIPLE UP!",
+      "description": "Draw 3 cards."
+    },
+    {
+      "id": 6,
+      "phase": "main",
+      "cp": 0,
+      "name": "VEGAS BABY!",
+      "description": "Roll 1 die: Gain 1/2 the value as cp (rounded up)."
+    },
+    {
+      "id": 7,
+      "phase": "main",
+      "cp": 1,
+      "name": "GET THAT OUTTA HERE!",
+      "description": "Remove a status effect token from a chosen player."
+    },
+    {
+      "id": 8,
+      "phase": "main",
+      "cp": 2,
+      "name": "TRANSFERENCE!",
+      "description": "Transfer 1 status effect token from a chosen player to another chosen player."
+    },
+    {
+      "id": 9,
+      "phase": "main",
+      "cp": 2,
+      "name": "WHAT STATUS EFFECTS?",
+      "description": "Remove all status effect tokens from a chosen player."
+    },
+    {
+      "id": 10,
+      "phase": "roll",
+      "cp": 0,
+      "name": "BETTER D!",
+      "description": "A chosen player may perform an additional Roll Attempt of up to five dice during their Defensive Roll Phase."
+    },
+    {
+      "id": 11,
+      "phase": "roll",
+      "cp": 1,
+      "name": "HELPING HAND",
+      "description": "Select one of your opponent's dice and force them to re-roll it."
+    },
+    {
+      "id": 12,
+      "phase": "roll",
+      "cp": 1,
+      "name": "NOT THIS TIME!",
+      "description": "A chosen player prevents 6 incoming dmg."
+    },
+    {
+      "id": 13,
+      "phase": "roll",
+      "cp": 1,
+      "name": "ONE MORE TIME!",
+      "description": "A chosen player may perform an additional Roll Attempt of up to five dice during their Offensive Roll Phase."
+    },
+    {
+      "id": 14,
+      "phase": "roll",
+      "cp": 1,
+      "name": "SAMESIES!",
+      "description": "Change the value of one of your dice to be identical to the value of another one of your dice."
+    },
+    {
+      "id": 15,
+      "phase": "roll",
+      "cp": 1,
+      "name": "SIX-IT!",
+      "description": "Change the value of one of your dice to a 6."
+    },
+    {
+      "id": 16,
+      "phase": "roll",
+      "cp": 1,
+      "name": "TRY, TRY AGAIN!",
+      "description": "You or a chosen teammate may re-roll up to two dice (can be the same die twice in a row or two different dice)."
+    },
+    {
+      "id": 17,
+      "phase": "roll",
+      "cp": 2,
+      "name": "SO WILD!",
+      "description": "Change the value of any one die."
+    },
+    {
+      "id": 18,
+      "phase": "roll",
+      "cp": 3,
+      "name": "TWICE AS WILD!",
+      "description": "Change the values of any two dice."
+    }
+  ]

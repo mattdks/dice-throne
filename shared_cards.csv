@@ -1,0 +1,19 @@
+id,phase,cp,name,description
+1,instant,0,GETTING PAID!,Gain 2 cp.
+2,instant,1,DOUBLE UP!,Draw 2 cards.
+3,instant,1,TIP IT!,Increase or decrease any die by the value of 1.
+4,instant,2,"BUH, BYE!",Remove a status effect token from a chosen player.
+5,instant,2,TRIPLE UP!,Draw 3 cards.
+6,main,0,VEGAS BABY!,Roll 1 die: Gain 1/2 the value as cp (rounded up).
+7,main,1,GET THAT OUTTA HERE!,Remove a status effect token from a chosen player.
+8,main,2,TRANSFERENCE!,Transfer 1 status effect token from a chosen player to another chosen player.
+9,main,2,WHAT STATUS EFFECTS?,Remove all status effect tokens from a chosen player.
+10,roll,0,BETTER D!,A chosen player may perform an additional Roll Attempt of up to five dice during their Defensive Roll Phase.
+11,roll,1,HELPING HAND,Select one of your opponent's dice and force them to re-roll it.
+12,roll,1,NOT THIS TIME!,A chosen player prevents 6 incoming dmg.
+13,roll,1,ONE MORE TIME!,A chosen player may perform an additional Roll Attempt of up to five dice during their Offensive Roll Phase.
+14,roll,1,SAMESIES!,Change the value of one of your dice to be identical to the value of another one of your dice.
+15,roll,1,SIX-IT!,Change the value of one of your dice to a 6.
+16,roll,1,"TRY, TRY AGAIN!",You or a chosen teammate may re-roll up to two dice (can be the same die twice in a row or two different dice).
+17,roll,2,SO WILD!,Change the value of any one die.
+18,roll,3,TWICE AS WILD!,Change the values of any two dice.

@@ -1,0 +1,231 @@
+{
+    "visual" : [
+        {
+            "name": "Gunslinger",
+            "img": "",
+            "background-color": "#9b0101f4",
+            "text-color": "#ffd1d1f4"
+        }
+    ],
+    "moves": [
+        {
+            "id": 1,
+            "type": "attack",
+            "name": "Move 1",
+            "desc": "Move 1 desc",
+            "requirement": ["eye", "eye", "eye"]
+        },
+        {
+            "id": 2,
+            "type": "attack",
+            "name": "Move 2",
+            "desc": "Move 2 desc",
+            "requirement": ["eye", "eye", "tear"]
+        },
+        {
+            "id": 3,
+            "type": "attack",
+            "name": "Move 3",
+            "desc": "Move 3 desc",
+            "requirement": ["eye", "eye", "eye"]
+        },
+        {
+            "id": 4,
+            "type": "attack",
+            "name": "Move 4",
+            "desc": "Move 4 desc",
+            "requirement": ["eye", "eye", "eye"]
+        },
+        {
+            "id": 5,
+            "type": "attack",
+            "name": "Move 5",
+            "desc": "Move 5 desc",
+            "requirement": ["eye", "eye", "eye"]
+        },
+        {
+            "id": 6,
+            "type": "attack",
+            "name": "Move 6",
+            "desc": "Move 6 desc",
+            "requirement": ["eye", "eye", "eye"]
+        },
+        {
+            "id": 7,
+            "type": "attack",
+            "name": "Move 7",
+            "desc": "Move 7 desc",
+            "requirement": ["eye", "eye", "eye"]
+        },
+        {
+            "id": 8,
+            "type": "defense",
+            "name": "Defense",
+            "desc": "Defense desc",
+            "requirement": ["eye", "eye", "eye"]
+        },
+        {
+            "id": 9,
+            "type": "ultimate",
+            "name": "Ultimate",
+            "desc": "Ultimate ability",
+            "requirement": [6, 6, 6, 6, 6]
+        }
+    ],
+    "cards": [
+        {
+          "id": 1,
+          "phase": "main",
+          "cp": 1,
+          "name": "SPIN THE CHAMBER!",
+          "description": "Gain Reload.",
+          "requirement": "",
+          "name 2": "",
+          "description 2": "",
+          "requirement 2": ""
+        },
+        {
+          "id": 2,
+          "phase": "main",
+          "cp": 1,
+          "name": "ROULETTE!",
+          "description": "Choose a player and then roll 1 die: On bullet_die, deal 2 dmg. On dash_die, inflict Knockdown. On bullseye_die, inflict Bounty.",
+          "requirement": "",
+          "name 2": "",
+          "description 2": "",
+          "requirement 2": ""
+        },
+        {
+          "id": 3,
+          "phase": "main",
+          "cp": 2,
+          "name": "WANTED!",
+          "description": "Inflict Bounty on a chosen opponent.",
+          "requirement": "",
+          "name 2": "",
+          "description 2": "",
+          "requirement 2": ""
+        },
+        {
+          "id": 4,
+          "phase": "roll",
+          "cp": 1,
+          "name": "EAT LEAD!",
+          "description": "Roll 5 die: Add 1×bullet_die to the total dmg. If at least 4 dmg was added, inflict Knockdown.",
+          "requirement": "",
+          "name 2": "",
+          "description 2": "",
+          "requirement 2": ""
+        },
+        {
+          "id": 5,
+          "phase": "roll",
+          "cp": 1,
+          "name": "WILD WEST!",
+          "description": "When you spend a Reload, you may re-roll that die one time. If you do, add an additional 1 dmg to the outcome.",
+          "requirement": "",
+          "name 2": "",
+          "description 2": "",
+          "requirement 2": ""
+        },
+        {
+          "id": 6,
+          "phase": "upgrade",
+          "cp": 1,
+          "name": "BOUNTY HUNTER II",
+          "description": "Inflict Bounty. Then deal 2 undefendable dmg.",
+          "requirement": "[bullet, bullet, bullseye, bullseye]",
+          "name 2": "",
+          "description 2": "",
+          "requirement 2": ""
+        },
+        {
+          "id": 7,
+          "phase": "upgrade",
+          "cp": 2,
+          "name": "QUICK DRAW II",
+          "description": "Passive: During your Upkeep Phase, gain Reload. When you spend a Reload, you may re-roll that die one time.",
+          "requirement": "",
+          "name 2": "",
+          "description 2": "",
+          "requirement 2": ""
+        },
+        {
+          "id": 8,
+          "phase": "upgrade",
+          "cp": 2,
+          "name": "DEADEYE II",
+          "description": "Inflict Knockdown. Deal 8 undefendable dmg.",
+          "requirement": "[bullseye, bullseye, bullseye, bullseye]",
+          "name 2": "ENFORCER",
+          "description 2": "Gain Evasive. Inflict Bounty & Knockdown on up to two chosen opponents",
+          "requirement 2": "[bullseye, bullseye, bullseye]"
+        },
+        {
+          "id": 9,
+          "phase": "upgrade",
+          "cp": 2,
+          "name": "TAKE COVER II",
+          "description": "Gain Evasive. Deal 6 dmg.",
+          "requirement": "[bullet, bullet, dash, dash, dash]",
+          "name 2": "MARK THE TARGET",
+          "description 2": "Gain 2 Evasive. Inflict Bounty.",
+          "requirement 2": "[dash, dash, dash]"
+        },
+        {
+          "id": 10,
+          "phase": "upgrade",
+          "cp": 2,
+          "name": "FAN THE HAMMER II",
+          "description": "Gain 2 Evasive. Deal 8 dmg.",
+          "requirement": "large straight",
+          "name 2": "PISTOL WHIP",
+          "description 2": "Gain Evasive. Inflick Knockdown. Deal 1 undefendable dmg.",
+          "requirement 2": "[dash, dash, bullseye]"
+        },
+        {
+          "id": 11,
+          "phase": "upgrade",
+          "cp": 2,
+          "name": "SHOWDOWN II",
+          "description": "After targeting an opponent, you each roll 1 die: If your roll is equal or greater, deal 8 dmg, otherwise deal 6 dmg.",
+          "requirement": "small straight",
+          "name 2": "",
+          "description 2": "",
+          "requirement 2": ""
+        },
+        {
+          "id": 12,
+          "phase": "upgrade",
+          "cp": 2,
+          "name": "REVOLVER II",
+          "description": "Deal (number of bullets) dmg + 1. On 4-of-a-kind, inflict Knockdown.",
+          "requirement": "bullets",
+          "name 2": "",
+          "description 2": "",
+          "requirement 2": ""
+        },
+        {
+          "id": 13,
+          "phase": "upgrade",
+          "cp": 3,
+          "name": "SHOWDOWN III",
+          "description": "After targeting an opponent, you each roll 1 die: If your roll is equal or greater, deal 9 dmg, otherwise deal 6 dmg.",
+          "requirement": "small straight",
+          "name 2": "",
+          "description 2": "",
+          "requirement 2": ""
+        },
+        {
+          "id": 14,
+          "phase": "upgrade",
+          "cp": 3,
+          "name": "DUEL II",
+          "description": "Defense: You and your Attacker each roll 1 die: If your roll is equal or greater, you may choose to either deal 3 dmg or prevent 1/2 dmg (rounded up). If your roll is less, deal 1 dmg.",
+          "requirement": "",
+          "name 2": "",
+          "description 2": "",
+          "requirement 2": ""
+        }
+    ]
+}
