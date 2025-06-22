@@ -61,3 +61,12 @@ button {
     border-color: blue;
     color: blue;
 }
+
+#piles {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    scale: 75%;
+}

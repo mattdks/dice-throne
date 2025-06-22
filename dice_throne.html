@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dice Throne</title>
-    <link rel="stylesheet" type="text/css" href="/main.css">
+    <link rel="stylesheet" type="text/css" href="./main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Crete+Round:ital@0;1&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/abcc70ceac.js" crossorigin="anonymous"></script>
-    <script src="script.js" defer></script>
-    <script src="dice.js" defer></script>
+    <script src="./scripts/stats.js" defer></script>
+    <script src="./scripts/dice.js" defer></script>
+    <script src="./scripts/cards.js" defer></script>
 </head>
 <body>
     <header>
@@ -70,7 +71,7 @@
                     </div>
                 </section>
                 <section id="center">
-                    <h2 id="char-name">Vampire Lord</h2>
+                    <h2 id="char-name">Gunslinger</h2>
                     <p>ultimate</p>
                 </section>
                 <section class="grid">
@@ -91,6 +92,10 @@
         </section>
         <section id="cards-section">
             <p>draw-pile, discard-pile, hand</p>
+            <section id="piles">
+                <img class="card" id="draw" src="./images/card_back.jpg" alt="Draw Pile">
+                <img class="card" src="./images/card_back.jpg" alt="Discard Pile">
+            </section>
         </section>
     </section>
 </body>
